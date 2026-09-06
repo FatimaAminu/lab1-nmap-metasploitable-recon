@@ -1,0 +1,30 @@
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-09-06 04:55 -0400
+Nmap scan report for 192.168.56.103
+Host is up (0.0014s latency).
+
+PORT      STATE         SERVICE      VERSION
+53/udp    open          domain       ISC BIND 9.4.2
+67/udp    closed        dhcps
+68/udp    open|filtered dhcpc
+69/udp    open|filtered tftp
+123/udp   closed        ntp
+135/udp   closed        msrpc
+137/udp   open          netbios-ns   Microsoft Windows netbios-ns (workgroup: WORKGROUP)
+138/udp   open|filtered netbios-dgm
+139/udp   closed        netbios-ssn
+161/udp   closed        snmp
+162/udp   closed        snmptrap
+445/udp   closed        microsoft-ds
+500/udp   closed        isakmp
+514/udp   closed        syslog
+520/udp   closed        route
+631/udp   closed        ipp
+1434/udp  closed        ms-sql-m
+1900/udp  closed        upnp
+4500/udp  closed        nat-t-ike
+49152/udp closed        unknown
+MAC Address: 08:00:27:79:A3:4F (Oracle VirtualBox virtual NIC)
+Service Info: Host: METASPLOITABLE; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 119.74 seconds

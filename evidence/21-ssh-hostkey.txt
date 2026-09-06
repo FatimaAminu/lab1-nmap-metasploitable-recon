@@ -1,0 +1,12 @@
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-09-06 04:59 -0400
+Nmap scan report for 192.168.56.103
+Host is up (0.0012s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+| ssh-hostkey: 
+|   1024 60:0f:cf:e1:c0:5f:6a:74:d6:90:24:fa:c4:d5:6c:cd (DSA)
+|_  2048 56:56:24:0f:21:1d:de:a7:2b:ae:61:b1:24:3d:e8:f3 (RSA)
+MAC Address: 08:00:27:79:A3:4F (Oracle VirtualBox virtual NIC)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.45 seconds

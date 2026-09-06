@@ -1,0 +1,12 @@
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-09-06 05:00 -0400
+Nmap scan report for 192.168.56.103
+Host is up (0.0011s latency).
+
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 2.3.4
+|_banner: 220 (vsFTPd 2.3.4)
+MAC Address: 08:00:27:79:A3:4F (Oracle VirtualBox virtual NIC)
+Service Info: OS: Unix
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 0.46 seconds
